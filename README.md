@@ -13,9 +13,24 @@ A brief document to the different blocks, principle of working and applications 
 
 # Circuit Diagram of the complete PLL IP
 
+PLL schematic with all components
 ![](Images/PLL_Schematic.JPG)
 
 # Pre-Layout Waveforms in LTSPICE
+
+Phase Frequency Divider
+
+
+Charge Pump
+
+
+Voltage Controlled Oscillator
+
+
+Frequency Divider
+
+
+
 
 waveform images
 
