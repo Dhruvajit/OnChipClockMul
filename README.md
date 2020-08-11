@@ -19,20 +19,16 @@ PLL schematic with all components
 # Pre-Layout Waveforms in LTSPICE
 
 Phase Frequency Divider
+![](Images/PFD_output.JPG)
 
+Charge Pump along with Loop Filter
+![](Images/ChargePump_output.JPG)
 
-Charge Pump
+Voltage Controlled Oscillator (Oscillating at 60Mhz)
+![](Images/VCO_output.JPG)
 
-
-Voltage Controlled Oscillator
-
-
-Frequency Divider
-
-
-
-
-waveform images
+Frequency Divider (Divide by 2)
+![](Images/FrequencyDivider_output.JPG)
 
 # About Ngspice
 Ngspice is an open source mixed-signal circuit simulator.
