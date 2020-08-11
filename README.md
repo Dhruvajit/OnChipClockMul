@@ -36,10 +36,13 @@ Ngspice is an open source mixed-signal circuit simulator.
 
 For Ubuntu, open your terminal and type the following to install Ngspice\
 ``` $  sudo apt-get install -y ngspice```\
+
 To run the Simulation, enter the Ngspice Shell, open the terminal & type:\
 ``` $ ngspice ```\
+
 To simulate a netlist, type:\
 ```> ngspice 1 ->  source <filename>.cir```\
+	
 You can exit from the Ngspice Shell by typing:\
 ```> ngspice 1 ->  exit```
 
