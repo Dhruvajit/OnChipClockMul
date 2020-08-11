@@ -35,19 +35,12 @@ Ngspice is an open source mixed-signal circuit simulator.
 **Installing Ngspice**
 
 For Ubuntu, open your terminal and type the following to install Ngspice
-
 > $  sudo apt-get install -y ngspice
-
 To run the Simulation, enter the Ngspice Shell, open the terminal & type:
-
 > $ ngspice
-
 To simulate a netlist, type:
-
 > ngspice 1 ->  source <filename>.cir
-
 You can exit from the Ngspice Shell by typing:
-
 > ngspice 1 ->  exit
 
 # About LTSpice
@@ -57,7 +50,7 @@ LTspice is a SPICE-based analog electronic circuit simulator computer software, 
 ## Steps to install LTSpice XVII on LINUX
 
 It's not directly supported, so we need to download WineHQ.\
-Wine is a linux software that creates windows environment and allows you to run various windows programs.
+Wine is a linux software that creates windows environment and allows us to run Windows programs.
 Copy paste the commands mentioned below one after the other in the terminal for downloading and installing.
 ```
 sudo dpkg --add-architecture i386
@@ -87,7 +80,6 @@ have to do
 
 1. To make the PFD more efficient by solving the unaccounted problem of dead zone.
 2. To reduce the number of mosfets in Phase Frequency Detector and Voltage Controlled Oscillator to reduce the area of the chip and make the model more power efficent.
-3. 
 
 # Contributors
 
