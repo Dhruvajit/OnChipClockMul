@@ -9,11 +9,11 @@ A brief document to the different blocks, principle of working and applications 
 
 # Block diagram of PLL
 
-{IMAGE}
+![](Images/Block_diagram.png)
 
 # Circuit Diagram of the complete PLL IP
 
-{IMAGE}
+![](Images/PLL_Schematic.JPG)
 
 # Pre-Layout Waveforms in LTSPICE
 
