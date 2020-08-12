@@ -89,13 +89,6 @@ Fclk vs VCO at T = -40C, +27C, +150C with VDD = 1.8
 
 Fclk vs VDD at T = -40C, +27C, +150C with VCO = 0.2V
 
-Fclk vs T (-40C to 160C) at VDD = 1.6V, 1.8V, 1.98V with VCO = 0.2V
-
-IDDA vs VCO at T=27C, VDD =1.8V
-
-IDDD vs VCO at T=27C, VDD =1.8V
-
-Duty Cycle vs VDDR [1.6V to 2V] at Fclkref = 10Mhz
 
 # Future Work
 
