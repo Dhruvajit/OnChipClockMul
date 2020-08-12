@@ -29,8 +29,8 @@ Voltage Controlled Oscillator (Oscillating at 60Mhz)
 Frequency Divider (Divide by 2)
 ![](Images/FrequencyDivider_output.JPG)
 
-Phased Lock Loop (F_clkin = 10Mhz & F_clkout = 82Mhz at 1.8V)
-![](Images/PLL_output_10Mhz.JPG)
+Phased Lock Loop (F_clkin = 12Mhz & F_clkout = 95Mhz at 1.8V)
+![](Images/PLL_output_12Mhz.JPG)
 
 Phased Lock Loop (F_clkin = 5Mhz & F_clkout = 41Mhz at 1.8V)
 ![](Images/PLL_output_5Mhz.JPG)
