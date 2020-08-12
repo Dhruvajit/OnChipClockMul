@@ -29,6 +29,10 @@ Voltage Controlled Oscillator (Oscillating at 60Mhz)
 Frequency Divider (Divide by 2)
 ![](Images/FrequencyDivider_output.JPG)
 
+Phased Lock Loop (F_clkin = 10Mhz & F_clkout = 40Mhz)
+![](Images/PLL_output_10Mhz.JPG)
+
+
 # About Ngspice
 Ngspice is an open source mixed-signal circuit simulator.
 
