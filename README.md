@@ -92,13 +92,15 @@ $  cd avsdpll_3v3/Reports
 
 1. Frequency of CLOCK operating at 5Mhz with 50% Duty cycle 
 
-```$ ngspice Fclkin.cir``` 
+```$ ngspice Fclkin.cir
+``` 
 
 ![](Images/NGSP_PLL_INP.JPG)
 
 2. Phase Frequency Detector gives output as UP and DOWN
 
-```$ ngspice UP_DOWN.cir``` 
+```$ ngspice UP_DOWN.cir
+``` 
 
 ![](Images/NGS_UP.JPG)
 
@@ -106,19 +108,22 @@ $  cd avsdpll_3v3/Reports
 
 3. Charge Pump along with loop filter helps to regulate the voltage
 
-```$ ngspice VCO_input.cir ```
+```$ ngspice VCO_input.cir 
+```
 
 ![](Images/NGSP_PLL_CP.JPG)
 
 4. Voltage Controlled Oscillator gives the multiplied frequency of the clock and is operating at 41Mhz 
 
-```$ ngspice VCO_out.cir ```
+```$ ngspice VCO_out.cir
+```
 
 ![](Images/NGSP_VCO_out.JPG)
 
 5. Frequency Divider by 8 of the VCO output
 
-```$ ngspice FreqOut.cir```
+```$ ngspice FreqOut.cir
+```
 
 ![](Images/NGSP_FD_out.JPG)
 
