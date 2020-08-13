@@ -3,7 +3,7 @@ This repository will maintain simulation and document files on the PLL IP
 
 # Introduction to the Phased Lock Loop IP
 
-The given design specifications of the PLL can be found [here](https://github.com/Dhruvajit/avsdpll_3v3/blob/master/Specifications.pdf)
+The given design specifications of the PLL can be found [here](https://github.com/Dhruvajit/avsdpll_3v3/blob/master/Reports/Specifications.pdf)
 
 A brief document to the different blocks, principle of working and applications of PLL can be found [here](https://github.com/Dhruvajit/avsdpll_3v3/blob/master/Reports/PLL_OnChipMultiplier.pdf)
 # Block diagram of PLL
