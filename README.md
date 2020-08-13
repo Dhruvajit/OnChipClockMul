@@ -5,9 +5,9 @@ This repository will maintain simulation and document files on the PLL IP
 
 Phase lock loop is a feedback control system which consists of a phase detector, voltage controlled oscillator (VCO), and a low pass filter. The oscillator maintains a constant phase angle relative to an input reference signal and is used to detect the phase difference between two signals. The PLL primary function is to generate stable output high frequency from a fixed lower frequency signal so the VCO output frequency can be a multiple of the reference input frequency.
 
-The given design specifications of the PLL can be found [here](https://github.com/Dhruvajit/avsdpll_3v3/blob/master/Reports/Specifications.pdf)
+The given design specifications of the PLL can be found [here](https://github.com/Dhruvajit/PLL/blob/master/Reports/Specifications.pdf)
 
-A brief document to the different blocks, principle of working and applications of PLL can be found [here](https://github.com/Dhruvajit/avsdpll_3v3/blob/master/Reports/PLL_OnChipMultiplier.pdf)
+A brief document to the different blocks, principle of working and applications of PLL can be found [here](https://github.com/Dhruvajit/PLL/blob/master/Reports/PLL_OnChipMultiplier.pdf)
 
 # Block diagram of PLL
 
@@ -89,8 +89,8 @@ Now click on the application ltspice from your downloads and accept the T&C and 
 To clone the Repository and download the Netlist files for Simulation, enter the following commands in your terminal.
 ```
 $  sudo apt install -y git
-$  git clone https://github.com/Dhruvajit/avsdpll_3v3
-$  cd avsdpll_3v3/Reports
+$  git clone https://github.com/Dhruvajit/PLL
+$  cd PLL/Reports
 ````
 
 1. Frequency of CLOCK operating at 5Mhz with 50% Duty cycle 
