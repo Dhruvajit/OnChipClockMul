@@ -135,6 +135,13 @@ $ ngspice FreqOut.cir
 
 ![](Images/NGSP_FD_out.JPG)
 
+6. PLL output and input simulation
+```
+$ ngspice PLL_OSU.cir
+```
+![](Images/NGSP_PLL_INOUT.JPG)
+
+
 
 # Future Work
 
