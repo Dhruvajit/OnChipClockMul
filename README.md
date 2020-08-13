@@ -3,13 +3,13 @@ This repository will maintain simulation and document files on the PLL IP
 
 # Introduction to the Phased Lock Loop IP
 
+Phase lock loop is a feedback control system which consists of a phase detector, voltage controlled oscillator (VCO), and a low pass filter. The oscillator maintains a constant phase angle relative to an input reference signal and is used to detect the phase difference between two signals. The PLL primary function is to generate stable output high frequency from a fixed lower frequency signal so the VCO output frequency can be a multiple of the reference input frequency.
+
 The given design specifications of the PLL can be found [here](https://github.com/Dhruvajit/avsdpll_3v3/blob/master/Reports/Specifications.pdf)
 
 A brief document to the different blocks, principle of working and applications of PLL can be found [here](https://github.com/Dhruvajit/avsdpll_3v3/blob/master/Reports/PLL_OnChipMultiplier.pdf)
 
 # Block diagram of PLL
-
-Phase lock loop is a feedback control system which consists of a phase detector, voltage controlled oscillator (VCO), and a low pass filter. The oscillator maintains a constant phase angle relative to an input reference signal and is used to detect the phase difference between two signals. The PLL primary function is to generate stable output high frequency from a fixed lower frequency signal so the VCO output frequency can be a multiple of the reference input frequency.
 
 ![](Images/Block_diagram.png)
 
