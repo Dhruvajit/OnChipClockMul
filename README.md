@@ -16,32 +16,41 @@ A brief document to the different blocks, principle of working and applications 
 # Circuit Diagram of the complete PLL IP
 
 PLL schematic with all components
+
 ![](Images/PLL_Schematic.JPG)
 
 # Pre-Layout Waveforms in LTSPICE
 
 Phase Frequency Divider
+
 ![](Images/LTSpice_Images/PFD_output.png)
 
 Charge Pump along with Loop Filter
+
 ![](Images/LTSpice_Images/ChargePump_output.png)
 
 Voltage Controlled Oscillator (Oscillating at 60Mhz)
+
 ![](Images/LTSpice_Images/VCO_output.png)
 
 Frequency Divider (Divide by 2)
+
 ![](Images/LTSpice_Images/FrequencyDivider_output.png)
 
 #### Phased Lock Loop (F_clkin = 5Mhz & F_clkout = 41Mhz at 1.8V)
+
 ![](Images/LTSpice_Images/PLL_5Mhz_out.png)
 
 Magnified View of F_clkin & F_clkout (F_clkout = 8 * F_clkin)
+
 ![](Images/LTSpice_Images/PLL_5Mhz_magnified.png)
 
 #### Phased Lock Loop (F_clkin = 12.5Mhz & F_clkout = 99Mhz at 1.8V)
+
 ![](Images/LTSpice_Images/PLL_12Mhz.JPG)
 
 Magnified View of F_clkin & F_clkout (F_clkout = 8 * F_clkin)
+
 ![](Images/LTSpice_Images/PLL_12Mhz_magnified.png)
 
 # About Ngspice
