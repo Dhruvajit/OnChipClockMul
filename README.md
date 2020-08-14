@@ -45,7 +45,7 @@ Frequency Divider (Divide by 2)
 
 ![](Images/LTSpice_Images/FrequencyDivider_output.png)
 
-#### Phased Lock Loop (F_clkin = 5Mhz & F_clkout = 41Mhz at 1.8V)
+## Phased Lock Loop (F_clkin = 5Mhz & F_clkout = 41Mhz at 1.8V)
 
 ![](Images/LTSpice_Images/PLL_5Mhz_out.png)
 
@@ -53,7 +53,7 @@ Magnified View of F_clkin & F_clkout (F_clkout = 8 * F_clkin)
 
 ![](Images/LTSpice_Images/PLL_5Mhz_magnified_f.png)
 
-#### Phased Lock Loop (F_clkin = 12.5Mhz & F_clkout = 99Mhz at 1.8V)
+## Phased Lock Loop (F_clkin = 12.5Mhz & F_clkout = 99Mhz at 1.8V)
 
 ![](Images/LTSpice_Images/PLL_12Mhz.JPG)
 
