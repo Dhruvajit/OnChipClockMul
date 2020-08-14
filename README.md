@@ -31,7 +31,7 @@ Charge Pump along with Loop Filter
 
 Voltage Controlled Oscillator (Oscillating at 60Mhz)
 
-![](Images/LTSpice_Images/VCO_output.png)
+![](Images/LTSpice_Images/VCO_output_1.png)
 
 Frequency Divider (Divide by 2)
 
