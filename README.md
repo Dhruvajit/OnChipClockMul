@@ -130,9 +130,9 @@ $ ngspice Fclkin.cir
 $ ngspice UP_DOWN.cir
 ``` 
 
-![](Images/NGSpice_Images/NGS_UP.JPG)
+![](Images/NGSpice_Images/NGS_UP_f.png)
 
-![](Images/NGSpice_Images/NGSP_DOWN.JPG)
+![](Images/NGSpice_Images/NGSP_DOWN_f.png)
 
 3. Charge Pump along with loop filter helps to regulate the voltage
 
@@ -140,7 +140,7 @@ $ ngspice UP_DOWN.cir
 $ ngspice VCO_input.cir 
 ```
 
-![](Images/NGSpice_Images/NGSP_PLL_CP.JPG)
+![](Images/NGSpice_Images/NGSP_PLL_CP.png)
 
 4. Voltage Controlled Oscillator gives the multiplied frequency of the clock and is operating at 41Mhz 
 
@@ -148,7 +148,7 @@ $ ngspice VCO_input.cir
 $ ngspice VCO_out.cir
 ```
 
-![](Images/NGSpice_Images/NGSP_VCO_out.JPG)
+![](Images/NGSpice_Images/NGSP_VCO_out.png)
 
 5. Frequency Divider by 8 of the VCO output
 
@@ -156,7 +156,7 @@ $ ngspice VCO_out.cir
 $ ngspice FreqOut.cir
 ```
 
-![](Images/NGSpice_Images/NGSP_FD_out.JPG)
+![](Images/NGSpice_Images/NGSP_FD_out_f.png)
 
 6. PLL output and input simulation
 ```
