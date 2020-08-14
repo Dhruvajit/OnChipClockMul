@@ -162,7 +162,7 @@ $ ngspice FreqOut.cir
 ```
 $ ngspice PLL_OSU.cir
 ```
-![](Images/NGSpice_Images/NGSP_PLL_INOUT.JPG)
+![](Images/NGSpice_Images/NGSP_PLL_INOUT_f.png)
 
 
 
