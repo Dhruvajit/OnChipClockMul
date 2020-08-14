@@ -51,7 +51,7 @@ Magnified View of F_clkin & F_clkout (F_clkout = 8 * F_clkin)
 
 Magnified View of F_clkin & F_clkout (F_clkout = 8 * F_clkin)
 
-![](Images/LTSpice_Images/PLL_12Mhz_magnified.png)
+![](Images/LTSpice_Images/PLL_12Mhz_magnified_f.png)
 
 # About Ngspice
 Ngspice is an open source mixed-signal circuit simulator.
