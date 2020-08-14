@@ -220,7 +220,7 @@ V1 N001 0 1.8
 
 +            WKETA=0.0319301 LKETA=2.955547E-3 PU0=-1.1105313 PUA=-4.62102E-11 PUB=1E-21 PVSAT=50 PETA0=1E-4 PKETA=-4.346368E-3)
 
-.tran 1e-09 20e-06 0e-00
+.tran 10e-09 20e-06 0e-00
 
 *Control Statements
 .control
@@ -230,4 +230,3 @@ plot V(Fclkin)+8 V(UP)+6 V(DOWN)+4 V(vco_input)+2 V(output)
 .endc
 .end
 
-plot V(f_in)+8 V(up)+6 V(down)+4 V(Vin_vco)+2
