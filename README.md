@@ -122,7 +122,7 @@ $  cd PLL/Reports
 $ ngspice Fclkin.cir
 ``` 
 
-![](Images/NGSpice_Images/NGSP_PLL_INP.JPG)
+![](Images/NGSpice_Images/NGSP_PLL_INP_f.png)
 
 2. Phase Frequency Detector gives output as UP and DOWN
 
