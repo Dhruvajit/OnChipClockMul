@@ -23,17 +23,25 @@ PLL schematic with all components
 
 Phase Frequency Divider
 
+![](Images/PFD.JPG)
+
 ![](Images/LTSpice_Images/PFD_output.png)
 
 Charge Pump along with Loop Filter
+
+![](Images/ChargePump.JPG)
 
 ![](Images/LTSpice_Images/ChargePump_output_f.png)
 
 Voltage Controlled Oscillator (Oscillating at 60Mhz)
 
+![](Images/VoltageControlOscillator.JPG)
+
 ![](Images/LTSpice_Images/VCO_output_1.png)
 
 Frequency Divider (Divide by 2)
+
+![](Images/FrequencyDivider.JPG)
 
 ![](Images/LTSpice_Images/FrequencyDivider_output.png)
 
