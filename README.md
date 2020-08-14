@@ -129,7 +129,6 @@ $ ngspice Fclkin.cir
 ```
 $ ngspice UP_DOWN.cir
 ``` 
-
 ![](Images/NGSpice_Images/NGS_UP_f.png)
 
 ![](Images/NGSpice_Images/NGSP_DOWN_f.png)
