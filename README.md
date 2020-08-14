@@ -21,22 +21,28 @@ PLL schematic with all components
 # Pre-Layout Waveforms in LTSPICE
 
 Phase Frequency Divider
-![](Images/PFD_output.JPG)
+![](Images/LTSPice_Images/PFD_output.png)
 
 Charge Pump along with Loop Filter
-![](Images/ChargePump_output.JPG)
+![](Images/LTSPice_Images/ChargePump_output.png)
 
 Voltage Controlled Oscillator (Oscillating at 60Mhz)
-![](Images/VCO_output.JPG)
+![](Images/LTSPice_Images/VCO_output.png)
 
 Frequency Divider (Divide by 2)
-![](Images/FrequencyDivider_output.JPG)
+![](Images/LTSPice_Images/FrequencyDivider_output.png)
 
-Phased Lock Loop (F_clkin = 12Mhz & F_clkout = 95Mhz at 1.8V)
-![](Images/PLL_output_12Mhz.JPG)
-
-Phased Lock Loop (F_clkin = 5Mhz & F_clkout = 41Mhz at 1.8V)
+####Phased Lock Loop (F_clkin = 5Mhz & F_clkout = 41Mhz at 1.8V)
 ![](Images/PLL_output_5Mhz.JPG)
+
+Magnified View of F_clkin & F_clkout (F_clkout = 8 * F_clkin)
+![](Images/LTSPice_Images/PLL_5Mhz_magnified.png)
+
+####Phased Lock Loop (F_clkin = 12.5Mhz & F_clkout = 99Mhz at 1.8V)
+![](Images/LTSPice_Images/PLL_12Mhz.png)
+
+Magnified View of F_clkin & F_clkout (F_clkout = 8 * F_clkin)
+![](Images/LTSPice_Images/PLL_12Mhzmagnified.png)
 
 # About Ngspice
 Ngspice is an open source mixed-signal circuit simulator.
@@ -99,7 +105,7 @@ $  cd PLL/Reports
 $ ngspice Fclkin.cir
 ``` 
 
-![](Images/NGSP_PLL_INP.JPG)
+![](Images/NGSpice_Images/NGSP_PLL_INP.JPG)
 
 2. Phase Frequency Detector gives output as UP and DOWN
 
@@ -107,9 +113,9 @@ $ ngspice Fclkin.cir
 $ ngspice UP_DOWN.cir
 ``` 
 
-![](Images/NGS_UP.JPG)
+![](Images/NGSpice_Images/NGS_UP.JPG)
 
-![](Images/NGSP_DOWN.JPG)
+![](Images/NGSpice_Images/NGSP_DOWN.JPG)
 
 3. Charge Pump along with loop filter helps to regulate the voltage
 
@@ -117,7 +123,7 @@ $ ngspice UP_DOWN.cir
 $ ngspice VCO_input.cir 
 ```
 
-![](Images/NGSP_PLL_CP.JPG)
+![](Images/NGSpice_Images/NGSP_PLL_CP.JPG)
 
 4. Voltage Controlled Oscillator gives the multiplied frequency of the clock and is operating at 41Mhz 
 
@@ -125,7 +131,7 @@ $ ngspice VCO_input.cir
 $ ngspice VCO_out.cir
 ```
 
-![](Images/NGSP_VCO_out.JPG)
+![](Images/NGSpice_Images/NGSP_VCO_out.JPG)
 
 5. Frequency Divider by 8 of the VCO output
 
@@ -133,13 +139,13 @@ $ ngspice VCO_out.cir
 $ ngspice FreqOut.cir
 ```
 
-![](Images/NGSP_FD_out.JPG)
+![](Images/NGSpice_Images/NGSP_FD_out.JPG)
 
 6. PLL output and input simulation
 ```
 $ ngspice PLL_OSU.cir
 ```
-![](Images/NGSP_PLL_INOUT.JPG)
+![](Images/NGSpice_Images/NGSP_PLL_INOUT.JPG)
 
 
 
