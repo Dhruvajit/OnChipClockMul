@@ -27,7 +27,7 @@ Phase Frequency Divider
 
 Charge Pump along with Loop Filter
 
-![](Images/LTSpice_Images/ChargePump_output.png)
+![](Images/LTSpice_Images/ChargePump_output_f.png)
 
 Voltage Controlled Oscillator (Oscillating at 60Mhz)
 
