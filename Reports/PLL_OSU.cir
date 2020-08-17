@@ -175,11 +175,12 @@ V1 N001 0 1.8
 
 
 .tran 1ns 5u
+.ic V(vco_input) = 0
 
 *Control Statements
 .control
 run
-plot V(Fclkin)+10 V(output)+8 V(UP)+6 V(DOWN)+4 V(vco_input)+2 V(vco_out)
+plot V(Fclkin)+8 V(UP)+6 V(DOWN)+4 V(vco_input)+2 V(vco_out)
 
 .endc
 .end
