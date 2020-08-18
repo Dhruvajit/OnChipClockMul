@@ -101,12 +101,6 @@ Install it by clicking on -> next.
 After installing , click on open with WineHQ windows program loader.
 ```LTSpice is now installed and you can design the circuit```
 
-## Steps to install LTSpice XVII on WINDOWS
-
-Just click on [LTSpice](https://www.analog.com/en/design-center/design-tools-and-calculators/ltspice-simulator.html) and go to Download LTSpice->Download for Windows.\
-Now click on the application ltspice from your downloads and accept the T&C and proceed to install.\
-```LTSpice is now installed and you can design the circuit.```
-
 # Pre-Layout Performance Characteristics in NGSPICE
 
 To clone the Repository and download the Netlist files for Simulation, enter the following commands in your terminal.
