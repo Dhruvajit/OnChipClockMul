@@ -164,23 +164,9 @@ $ ngspice PLL_OSU.cir
 1. To make the PFD more efficient by solving the unaccounted problem of dead zone.
 2. To reduce the number of mosfets in Phase Frequency Detector and Voltage Controlled Oscillator to reduce the area of the chip and make the model more power efficent.
 
-# Contributors
-
-- Dhruvajit Ghosh
-- Kunal Ghosh
-- Philipp Gühring
-
-# Acknowledgement
-
-- Kunal Ghosh, Director, VSD Corp. Pvt. Ltd.
-- Philipp Gühring, Software Architect, LibreSilicon Assocation
-- Paras Gidd, M.Tech Microelectronics, MIT Manipal
-
 # Contact Information
 
 - Dhruvajit Ghosh, Undergraduate Student, Manipal Academy of Higher Education, ghoshg401@gmail.com
-- Kunal Ghosh, Director, VSD Corp. Pvt. Ltd. kunalghosh@gmail.com
-- Philipp Gühring, Software Architect, LibreSilicon Assocation pg@futureware.at
 
 
 
