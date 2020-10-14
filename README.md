@@ -1,4 +1,4 @@
-# avsdpll_3v3
+# On Chip Clock Multiplier - Phase Lock Loop
 This repository will maintain simulation and document files on the PLL IP 
 
 # Introduction to the Phased Lock Loop IP
