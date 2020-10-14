@@ -1,7 +1,7 @@
-# On Chip Clock Multiplier - Phase Lock Loop
+# On Chip Clock Multiplier - Phase Lock Loop (PLL)
 This repository will maintain simulation and document files on the PLL IP 
 
-# Introduction to the Phased Lock Loop IP
+# What is PLL?
 
 Phase lock loop is a feedback control system which consists of a phase detector, voltage controlled oscillator (VCO), and a low pass filter. The oscillator maintains a constant phase angle relative to an input reference signal and is used to detect the phase difference between two signals. The PLL primary function is to generate stable output high frequency from a fixed lower frequency signal so the VCO output frequency can be a multiple of the reference input frequency.
 
